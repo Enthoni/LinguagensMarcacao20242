@@ -1,0 +1,36 @@
+#nomefoto{
+    text-align: center;
+    color: rgb(17, 160, 112);
+}
+
+.titulos{
+    text-align: center;
+    background-color: rgb(167, 166, 166);
+    transition: 1.5s;
+}
+.titulos:hover{
+    background-color: rgb(17, 160, 112);
+    color: white;
+}
+
+.infopessoais{
+    background-color: rgba(133, 255, 214, 0.707);
+}
+
+.minhadiv{
+    border-style: dashed;
+    background-color: rgb(167, 166, 166);
+    text-align: center;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ol{
+    list-style-type: upper-alpha;
+}
+
+ul{
+    list-style: none;
+}
