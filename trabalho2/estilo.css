@@ -1,0 +1,96 @@
+#titulo{
+    font-family: "Dancing Script", cursive;
+    font-style: normal;
+}
+
+#fotoprincipal{
+    max-width: 960px;
+    text-align: center;
+}
+
+#boasVindas{
+    text-align: center;
+}
+
+#selecionado1, #selecionado2{
+    color: #ff2600;
+}
+
+.textinho{
+    text-align: justify;
+    padding: 10px;
+}
+
+.corpo{
+    background-color: #2C3E50;
+}
+
+.container{
+    background-color: #F0E5CF;
+    width: 960px;
+    margin: auto;
+    
+}
+
+.cabecape{
+    background-color: #E27D60;
+    text-align: center;
+}
+
+.capas{
+    border-radius: 25px;
+    width: 100%;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    padding: 10px;
+}
+
+table{
+    margin: auto;
+    width: 400px;
+}
+
+td, th {
+    padding: 10px;           
+    text-align: left;          
+    border-bottom: 1px solid #aaa6a6; 
+}
+
+tr:hover{
+    transition: 0.5s;
+    background-color: #f1ca7a;
+}
+
+
+
+nav{
+    display: flex;
+    border-bottom: 1px solid #aaa6a6; 
+    padding-bottom: 25px; 
+    transition: background-color 0.3s ease;
+}
+
+nav a:focus,nav a:active{
+    background-color: #007BFF;
+    color: #fff;
+}
+
+li{
+    margin: auto;
+}
+
+a:hover::content{
+    transition: 1s;
+    background-color: #539ce6;
+    text-decoration: none;
+    /*o text-decoration serve como uma linha, tanto em cima quanto embaixo do texo onde esta sendo colocado, como estamos usando na tag <a> que ja vem uma linha sublinhando e estamos utilizando "none" ele tira essa linha*/
+}
+
+a:before{
+    content: "📚 ";
+}
