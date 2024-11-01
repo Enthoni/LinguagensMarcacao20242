@@ -1,0 +1,44 @@
+html{
+    margin: 1rem;
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #8df0e9;
+}
+
+table{
+    border: 0.5rem solid #dfb872;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /*
+    auto -> (Não respeita o tamanho definido do width.A largura da coluna é calculada com base no conteúdo)
+    fixed -> (Respeita o tamanho definido do width. Se há um tamanho no width configurado na tabela, o algoritimo configura proporcionalmente nas tabelas)
+    */
+    table-layout: fixed;
+}
+
+table caption{
+    font-size: 2rem;
+    margin: 0.5rem 0 0.75rem;
+}
+
+table tr{
+    background-color: #f8f8f8;
+    border: 0.5rem solid #ddd;
+    padding: 0.35rem;
+}
+
+table th,
+table td{
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+table th{
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
