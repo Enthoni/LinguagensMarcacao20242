@@ -12,13 +12,13 @@
     text-align: center;
 }
 
-#selecionado1, #selecionado2{
+#selecionado1, #selecionado2, #selecionado3{
     color: #ff2600;
 }
 
 .textinho{
     text-align: justify;
-    padding: 10px;
+    text-indent: 40px;
 }
 
 .corpo{
@@ -93,4 +93,8 @@ a:hover::content{
 
 a:before{
     content: "📚 ";
+}
+
+p{
+    padding: 10px;
 }
