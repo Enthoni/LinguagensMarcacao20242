@@ -67,6 +67,10 @@ tr:hover{
     background-color: #f1ca7a;
 }
 
+a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
 nav{
     display: flex;
     border-bottom: 1px solid #aaa6a6; 
@@ -86,7 +90,6 @@ li{
 a:hover::content{
     transition: 1s;
     background-color: #539ce6;
-    text-decoration: none;
     /*o text-decoration serve como uma linha, tanto em cima quanto embaixo do texo onde esta sendo colocado, como estamos usando na tag <a> que ja vem uma linha sublinhando e estamos utilizando "none" ele tira essa linha*/
 }
 
